@@ -14,6 +14,8 @@ def load_teams():
                     name = csv_row['Team'],
                     salary = int(csv_row['Total Salary']),
                     player_count = int(csv_row['Players']),
-                    avg_age = avg_age_object
+                    avg_age = avg_age_object,
+                    stadium_capacity = int(csv_row['Stadium Capacity']),
+                    max_attendance = int(csv_row['Max Attendance'])
                 ))
     return team_list

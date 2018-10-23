@@ -1,9 +1,9 @@
-Team,Total Salary,Players,Average Age
-AFC Southtown Town,10071,25,23-54
-Shieldsys Strikers,9879,27,25-34
-Claydon Academicals,9128,27,22-4
-Trumpton FC,9015,25,24-17
-The Dynamos,7867,26,25-74
-Budwizer FC,7447,23,24-50
-FC Kennsburg,6880,25,27-13
-Lord of the Ings,4987,19,25-43
+Team,Total Salary,Players,Average Age,Stadium Capacity,Max Attendance
+AFC Southtown Town,10071,25,23-54,20000,19765
+Shieldsys Strikers,9879,27,25-34,12000,12000
+Claydon Academicals,9128,27,22-4,12000,7079
+Trumpton FC,9015,25,24-17,14816,14816
+The Dynamos,7867,26,25-74,12000,8071
+Budwizer FC,7447,23,24-50,12000,5621
+FC Kennsburg,6880,25,27-13,17000,15328
+Lord of the Ings,4987,19,25-43,12000,8233
