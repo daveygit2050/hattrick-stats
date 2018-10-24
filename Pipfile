@@ -6,6 +6,7 @@ name = "pypi"
 [dev-packages]
 
 [packages]
+matplotlib = "*"
 
 [requires]
 python_version = "3.7"

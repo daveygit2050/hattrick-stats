@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 from hatstats import load_csv
 from hatstats import team
 
@@ -6,8 +8,14 @@ team_chars = len(max(team_list, key=lambda team: len(team.name)).name)
 
 print('\n*Average player salary (total players)*')
 sorted_list = sorted(team_list, key=lambda team: team.avg_salary, reverse=True)
+chart_groups = []
+chart_values = []
 for team in sorted_list:
     print('```{0:{1}} - £{2:,.2f} ({3})```'.format(team.name, team_chars, team.avg_salary, team.player_count))
+    chart_groups.append(team.name)
+    chart_values.append(team.avg_salary)
+plt.bar(chart_groups, chart_values)
+plt.show()
 
 print('\n*Average player age*')
 sorted_list = sorted(team_list, key=lambda team: (team.avg_age.years, team.avg_age.days), reverse=True)
